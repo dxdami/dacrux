@@ -43,7 +43,7 @@ a {
 }
 
 .layout * {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     position: relative;
     
   }
@@ -141,54 +141,17 @@ a {
 
 
 .ingredientes {
+    background-color: antiquewhite;
+    font-size: 15px;
     display: grid;
-    grid-template-columns: repeat(4,25%)  ; 
-    grid-template-rows: repeat(2,auto);
-    grid-template-areas: 
-    "foto" "descripcion" "foto1" "descripcion1"
-    "foto2" "descripcion2" "foto3" "descripcion3";
-    
-    
+    grid-template-columns: 200px auto auto auto;        
 }   
-.foto{
+
+.ingredientes > * {
+    background-color: brown;
+    text-align: center;
     display: flex;
     justify-content: center;
-    
-}    
-.descripcion {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    
-}
-.foto__1 {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
-.descripcion__1 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-.foto__2{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
-.descripcion__2 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-}
-.foto__3 {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
-.descripcion__3 {
-    display: flex;
-    justify-items: center;
     align-items: center;
 }
 
@@ -261,7 +224,11 @@ a {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:900px) {
-    
+  
+    .layout {
+        display: flex;
+        flex-wrap: wrap;
+    }
 .article {
     display: flex;
     flex-wrap: wrap;
@@ -306,32 +273,13 @@ a {
     flex-wrap: wrap;
     flex-grow: 3;
 }
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 }
 
 
 
 
-
-
-   /* .malta {
-    grid-area: foto;
-    display: flex;
-   
-    flex-direction:row;
-    margin-top: 4rem;
-    align-items: center;
-    box-sizing: content-box;
-    flex-basis: 50%;
-    }    
-    .descripcion__malta {
-     grid-area: foto;   
-     display: flex;
-     flex-direction: row;
-    }
-      grid-template-columns: 25% 25% 25% 25%;
-grid-template-rows: 1fr 1fr;
-border: 1px solid red;
-grid-area: 
-"foto" "descripcion" "foto1" "descripcion1"
-"foto2" "descripcion2" "foto3" "descripcion3" ;
