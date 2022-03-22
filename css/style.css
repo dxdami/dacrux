@@ -27,7 +27,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: inherit;
+    color: gray;
     display: inline-block;
 }
 /*layout grid*/
@@ -66,7 +66,7 @@ a {
 }
 
 .menu .menu__items:hover {
-    border-color: var(--principal);
+    box-shadow: 0 0 30px rgb(197, 197, 197);;
 }
 
 .menu .menu__items .menu__link {
@@ -87,6 +87,7 @@ a {
     align-items: center;
     box-sizing: content-box;
     flex-basis: 50%;
+
     }
 
 
@@ -96,6 +97,7 @@ a {
     color: gray;
     box-sizing: content-box;
     text-align: center;
+    text-shadow: 0 0 20px #fff;
 }
 
 .footer {
@@ -124,11 +126,15 @@ a {
     margin-top: 6rem;    
     flex-basis: 50% ;     
 }
-
 .la__cerveza__img {
+            
     width: 100%;
     min-width: 300px;
-}
+    -webkit-box-shadow: 14px 1px 75px 0px rgba(107, 107, 107, 0.56);
+    -moz-box-shadow: 14px 1px 75px 0px rgba(49, 49, 49, 0.56);
+    box-shadow: 14px 1px 75px 0px rgba(84, 84, 84, 0.56);
+    }
+
 
 .section__items2 {
     font-size: 30px;
@@ -141,14 +147,12 @@ a {
 
 
 .ingredientes {
-    background-color: antiquewhite;
     font-size: 15px;
     display: grid;
     grid-template-columns: 200px auto auto auto;        
 }   
 
 .ingredientes > * {
-    background-color: brown;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -284,17 +288,14 @@ a {
     0% {opacity:0% ;}
     25% {opacity:25% ;}
     50% {opacity:50% ;}
-    100% {opacity:100% ;}
-    100% {opacity:100% ;}
-    100% {opacity:100% ;}
-}
+    75% {opacity:75% ;}
+    100% {opacity:100%;}
+}  
 .logo {
      animation-name: un_efecto;
      animation-iteration-count: infinite;
-     animation-timing-function: ease-in;
+     animation-timing-function:ease-in;
      animation-duration: 7s;
      animation-delay: 0s;
 
 }
-
-
