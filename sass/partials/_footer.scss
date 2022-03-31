@@ -1,0 +1,40 @@
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: center ; 
+    font-size: 3em;
+    color: gray;
+    margin-top: 3rem;
+    text-align: end;
+   
+    bottom: 1vh;
+    width: 100%;
+    height: 10vh;
+}
+
+/*esto es un map*/
+$estilos: (
+  azul: #3673D9,
+  rojo: red, 
+  amarillo: yellow  
+ 
+);
+
+.redes1 {
+  background-color: map-get($estilos, rojo);
+  padding: 1rem;
+  color: white;
+}
+.redes2 {
+    background-color: map-get($estilos, azul);
+    padding: 1rem;
+    color: white;
+  }
+  .redes3 {
+    background-color: map-get($estilos, amarillo);
+    padding: 1rem;
+    color: white;
+  }

@@ -1,0 +1,29 @@
+
+.article {
+    grid-area: container;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-area: 
+    "section__items"
+    "Section__items2";
+    margin-top: 6rem;    
+    flex-basis: 50% ;     
+}
+.la__cerveza__img {
+            
+    width: 100%;
+    min-width: 300px;
+    -webkit-box-shadow: 14px 1px 75px 0px rgba(107, 107, 107, 0.56);
+    -moz-box-shadow: 14px 1px 75px 0px rgba(49, 49, 49, 0.56);
+    box-shadow: 14px 1px 75px 0px rgba(84, 84, 84, 0.56);
+    }
+
+.section__items2 {
+        font-size: 30px;
+        color: gray;
+        margin-top: 2rem;
+        margin-left: 20%;
+        margin-right: 15%;    
+        box-sizing: content-box;  
+    }
+    

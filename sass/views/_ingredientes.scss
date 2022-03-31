@@ -1,0 +1,48 @@
+.ingredientes {
+    font-size: 15px;
+    display: grid;
+    color: gray;
+    grid-template-columns: 200px auto auto auto;        
+}   
+
+.ingredientes > * {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "item1" "item2""item3""item4"
+    "item5" "item6""item7""item8";
+    gap: 1em;
+}
+
+.article__items1 {
+    display:flex;
+    
+
+}
+.article__items2 {
+    display:flex;
+    grid-area: item2;
+}
+.article__items3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.article__items5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.article__items7 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

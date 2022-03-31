@@ -1,0 +1,49 @@
+/*layout grid*/
+
+.layout {
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-areas: 
+    "header"
+    "container"
+    "footer";
+    min-height: 100vh;
+}
+
+.layout * {
+    /*border: 1px solid red;*/
+    position: relative;
+    
+  }
+
+
+/*navbar*/
+.navbar {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;  
+    flex-basis: auto;
+    
+   
+}
+
+.menu .menu__items {
+    border: 0.5px solid $secondary;
+    transition: all 1.5s ease-in-out;
+      
+}
+
+ .menu__items:hover {
+    box-shadow: 0 0 30px rgb(197, 197, 197);;
+}
+
+.menu__items .menu__link {
+    font-size: 2em ;
+    padding: 1rem ;
+}
+
+.flex-row {
+    display: flex;
+}

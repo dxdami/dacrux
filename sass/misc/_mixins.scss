@@ -1,0 +1,16 @@
+/*esto es un map*/
+$estilos: (
+  azul: #3673D9,
+  rojo: red, 
+  amarillo: yellow  
+ 
+);
+
+/*mixied de tamañp*/
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+
+ 

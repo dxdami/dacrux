@@ -1,0 +1,26 @@
+/*normalize*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*css para todo los html-header-body-footer*/
+
+html {
+    background-color: $secondary;  
+    font-size: 62.5%;
+    color: var(--principal);
+    max-width: 1366px;
+    
+}
+
+li {
+    list-style-type: none;    
+}
+a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}

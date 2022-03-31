@@ -1,0 +1,26 @@
+/*quienessomos*/
+.main__quienes{
+    grid-area: container;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-area: 
+    "iframe"
+    "quienes__video";
+    margin-top: 6rem;    
+    flex-basis: 50% ;    
+      
+    
+}
+
+.quienes__video {
+    font-size: 30px;
+    color: gray;
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 15%;    
+    box-sizing: content-box;  
+}
+
+iframe {
+    @include sizes(600px, 500px);
+ }
