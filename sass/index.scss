@@ -8,8 +8,8 @@
 @import "./views/lacerveza";
 @import "./views/ingredientes";
 @import "./views/quienessomos";
-
-
+@import "./views/estilos";
+@import "./views/contacto";
 
 
 
@@ -24,7 +24,6 @@
     flex-basis: 50%;
 
     }
-
 .frase {
     font-size: 2.5em;
     margin-top: 2rem;
@@ -34,3 +33,79 @@
     text-shadow: 0 0 20px #fff;
 }
 
+@media screen and (max-width:400px) {
+  
+    .layout {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .article {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .la__cerveza__img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    flex-grow: 1;
+    }
+
+    .section__items2 {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    }   
+
+    .footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    }
+    .ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    }
+    .section {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+    .article__items3 .article__items5 .article__items6 {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+    .main__quienes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width:600px
+
+}
+    input {
+        width: 370px;
+    }
+    textarea {
+        width: 370px;
+    }
+    #submit {
+        width: 370px;
+    }
+
+    .navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .menu .menu__items{
+    display: flex;
+    flex-direction: column;
+}
+    .flex-row {
+    flex-direction: column;
+}
+    .logo {
+    display: none;
+}
+
+}   

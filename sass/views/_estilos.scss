@@ -1,0 +1,125 @@
+
+.section {
+    font-size: 15px;
+    display: grid;
+    color: gray;
+    grid-template-columns:auto auto auto auto; 
+    margin-top: 1rem ;
+    margin-bottom: 1rem ;
+    margin-left: 1rem ;
+    margin-right: 3rem ; 
+
+}   
+
+.section > * {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.article__items1 {
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items1 :hover {
+    transform: scale(2);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px; 
+}
+
+.article__items3 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items3:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
+}
+.article__items2 {
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items2 :hover {
+    transform: scale(2);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px; 
+}
+
+.article__items4 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items4:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
+}
+.article__items5 {
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items5 :hover {
+    transform: scale(2);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px; 
+}
+
+.article__items6 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items6:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
+}
+
+.article__items7 {
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items7 :hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px; 
+}
+
+.article__items8 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.article__items8:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
+}

@@ -2,47 +2,113 @@
     font-size: 15px;
     display: grid;
     color: gray;
-    grid-template-columns: 200px auto auto auto;        
+    grid-template-columns:auto auto auto auto; 
+    gap: 5;  
+    margin: 3rem;  
 }   
 
 .ingredientes > * {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;  
+}
+
+.foto  {
+    display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
+    position:relative; 
+    transition: all 300ms;
+}  
+.foto :hover {
+    transform: scale(2);
+    position: absolute; 
+    z-index: +5;
+    left: 550px;      
+    bottom: -150px;
 }
 
-.section {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-    "item1" "item2""item3""item4"
-    "item5" "item6""item7""item8";
-    gap: 1em;
+.descripcion {
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.descripcion:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px; 
+}
+.foto__1  {
+    width: auto;
+    position:relative; 
+    transition: all 300ms;
+}  
+.foto__1 :hover {
+    transform: scale(2);
+    position: absolute; 
+    z-index: +5 ;
+    right: 125px;      
+    bottom: -100px;
+
 }
 
-.article__items1 {
-    display:flex;
+.descripcion__1 {
     
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.descripcion__1:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
+}
 
+.foto__2  {
+    width: 100%;
+    position:relative; 
+    transition: all 300ms;
+}  
+.foto__2:hover {
+    transform: scale(3);
+    position: absolute; 
+    z-index: +3 ;
+    margin-left: auto;
+    margin-right: auto;      
+    
 }
-.article__items2 {
-    display:flex;
-    grid-area: item2;
+
+.descripcion__2 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.descripcion__2:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
 }
-.article__items3 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.article__items5 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.article__items7 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+
+.descripcion__3 {
+    
+    width: 100%;
+    position:relative;
+    text-align:justify;  
+    transition: all 300ms;
+}  
+.descripcion__3:hover {
+    transform: scale(1.5);
+    width: 80%;
+    color: red;
+    text-decoration: solid 2px;
 }

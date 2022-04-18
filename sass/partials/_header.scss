@@ -8,6 +8,7 @@
     "container"
     "footer";
     min-height: 100vh;
+    
 }
 
 .layout * {
@@ -25,14 +26,14 @@
     justify-content: space-between;
     align-items: center ;  
     flex-basis: auto;
-    
    
 }
 
 .menu .menu__items {
     border: 0.5px solid $secondary;
     transition: all 1.5s ease-in-out;
-      
+
+    border-radius: 10px;      
 }
 
  .menu__items:hover {
@@ -42,8 +43,10 @@
 .menu__items .menu__link {
     font-size: 2em ;
     padding: 1rem ;
+    
 }
 
 .flex-row {
     display: flex;
 }
+
