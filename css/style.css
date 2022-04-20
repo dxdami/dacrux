@@ -465,7 +465,7 @@ textarea:hover {
   .main__quienes {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px; }
+    max-width: 370px; }
   input {
     width: 370px; }
   textarea {
